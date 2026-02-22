@@ -9,6 +9,8 @@ class DatabaseConnection {
     static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
+    //connection trial
+    //db installation on local host
 
     public static void main(String[] args) {
         try (Connection conn = getConnection()) {
@@ -18,3 +20,4 @@ class DatabaseConnection {
         }
     }
 }
+
