@@ -11,7 +11,6 @@ public class Lecturer implements Person {
         this.email= email;
         this.phoneNumber = phoneNumber;
     }
-    @Override
     public String name() {
         return this.firstName + " " + this.lastName;
     }

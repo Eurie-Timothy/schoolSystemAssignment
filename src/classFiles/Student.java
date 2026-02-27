@@ -1,7 +1,8 @@
 package classFiles;
 
 public class Student implements Person {
-    private String firstName, lastName;
+    private String firstName;
+    private String lastName;
     private String id;
     private String email;
     private String phoneNumber;
