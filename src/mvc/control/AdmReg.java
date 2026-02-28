@@ -29,5 +29,10 @@ public class AdmReg {
     }
 
 
+    //DB
+
+
+
+
 
 }
