@@ -1,5 +1,6 @@
 package mvc.model;
 
+import java.util.Random;
 import mvc.model.a.*;
 
 public class Lecture implements Person {
@@ -7,12 +8,18 @@ public class Lecture implements Person {
     private String lastName;
     private String email;
     private String phoneNumber;
+    private String idNumber;
+    private String staffId;
 
-    public Lecture(String firstName, String lastName, String email, String phoneNumber) {
+    Random rand = new Random();
+
+    public Lecture(String firstName, String lastName, String email, String phoneNumber, String staffId, String idNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.phoneNumber = phoneNumber;
+        this.staffId = staffId;
+        this.idNumber = idNumber;
     }
 
     @Override
@@ -30,5 +37,9 @@ public class Lecture implements Person {
     @Override
     public String phoneNumber(){
         return phoneNumber;
+    }
+    @Override
+    public String idNumber(){
+        return idNumber;
     }
 }

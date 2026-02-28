@@ -7,12 +7,16 @@ public class Student implements Person {
     private String lastName;
     private String email;
     private String phoneNumber;
+    private String idNumber;
+    String regNumber;
 
-    public Student(String firstName, String lastName, String email, String phoneNumber) {
+    public Student(String firstName, String lastName, String email, String phoneNumber,  String idNumber, String regNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.phoneNumber = phoneNumber;
+        this.idNumber = idNumber;
+        this.regNumber=regNumber;
     }
     @Override
     public String firstName(){
@@ -30,6 +34,9 @@ public class Student implements Person {
     public String phoneNumber(){
         return phoneNumber;
     }
-
+    @Override
+    public String idNumber(){
+        return idNumber;
+    }
 
 }

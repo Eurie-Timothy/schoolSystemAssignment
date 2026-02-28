@@ -4,4 +4,5 @@ public interface Person {
     abstract String lastName();
     abstract String email();
     abstract String phoneNumber();
+    abstract String idNumber();
 }
