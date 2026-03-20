@@ -28,7 +28,6 @@ public class AdmReg {
         return foo;
     }
 
-    //LECTURE's CODE
 
     public String addIDNumber() {
         System.out.print("IDNumber: ");
