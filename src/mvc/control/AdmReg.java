@@ -1,7 +1,4 @@
 package mvc.control;
-
-import mvc.model.Lecture;
-import mvc.model.Student;
 import java.util.Scanner;
 
 public class AdmReg {
@@ -27,7 +24,6 @@ public class AdmReg {
         String foo = sc.nextLine();
         return foo;
     }
-
 
     public String addIDNumber() {
         System.out.print("IDNumber: ");
